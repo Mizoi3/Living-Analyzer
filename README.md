@@ -14,6 +14,6 @@ JSON_DIR = "../json_parser/rich_json"
 RES_DIR = "./res"
 ```
 
-廊下の判定の閾値を変更したいときは、`libs.living_analyzer.py`の`remove_closing_walls(walls_ls, meat_width=0.78)`関数の`meat_width`を変更する（デフォルトでは78cm）
-
-家具配置に有効な壁長さの閾値を変えたいときは、`libs.living_analyzer.py`の`calculate_effective_walls(walls, effective_length=3.0)`関数の`effective_length`を変更する（デフォルトでは3.0m）
+## Option
+1. 廊下の判定の閾値を変更したいときは、`libs.living_analyzer.py`の`remove_closing_walls(walls_ls, meat_width=0.78)`関数の`meat_width`を変更する（デフォルトでは78cm）
+1. 家具配置に有効な壁長さの閾値を変えたいときは、`libs.living_analyzer.py`の`calculate_effective_walls(walls, effective_length=3.0)`関数の`effective_length`を変更する（デフォルトでは3.0m）
