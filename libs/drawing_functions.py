@@ -3,7 +3,7 @@ from shapely.geometry import LineString
 from matplotlib.patches import Polygon as MplPolygon
 from matplotlib.lines import Line2D
 
-def draw_linestrings(linestrings, linestring_sub=None):
+def linestrings(linestrings, linestring_sub=None):
     fig, ax = plt.subplots()
     ax.set_xlim(0, 255)
     ax.set_ylim(0, 255)
@@ -20,7 +20,7 @@ def draw_linestrings(linestrings, linestring_sub=None):
                 ax.plot(x, y, color="orange", linewidth=10, alpha=0.3)
     plt.show()
 
-def draw_polygons(polygons, linestrings=None):
+def polygons(polygons, linestrings=None):
     fig, ax = plt.subplots()
     ax.set_xlim(0, 255)
     ax.set_ylim(0, 255)

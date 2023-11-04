@@ -1,3 +1,5 @@
+from shapely.geometry import LineString
+
 # 座標のリストを受け取り、連続する点を結んでLineStringオブジェクトのリストを作成
 def create_linestrings(coord_pairs):
     linestrings = []
